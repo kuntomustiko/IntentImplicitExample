@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginRight="@dimen/margin"
+    android:padding="@dimen/padding"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+
+            android:id="@+id/btn_browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="browser" />
+
+        <Button
+
+            android:id="@+id/btn_tts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text To Speech" />
+
+        <Button
+
+            android:id="@+id/btn_call_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Phone" />
+
+        <Button
+
+            android:id="@+id/btn_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sms Device" />
+
+        <Button
+
+            android:id="@+id/btn_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wifi Device" />
+
+        <Button
+
+            android:id="@+id/btn_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth" />
+
+    </LinearLayout>
+
+</ScrollView>
